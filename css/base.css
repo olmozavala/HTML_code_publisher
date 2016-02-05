@@ -1,0 +1,31 @@
+/* 
+    Created on : Jan 15, 2015, 4:51:56 PM
+    Author     : olmozavala
+*/
+/*$background_color: #495565;*/
+html, body {
+  margin: 0px;
+  border: 0px;
+  background-color: white; }
+
+.defText, #errorText {
+  position: absolute;
+  color: white; }
+
+h2 {
+  text-align: center; }
+
+#errorText {
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  background-color: #d9534f;
+  padding: 5px 10px;
+  display: none;
+  top: 90%;
+  left: 10%; }
+
+#maingraph {
+  background-color: white; }
+
+/*# sourceMappingURL=base.css.map */

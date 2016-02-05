@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+	<head>
+		<title>TODO supply a title</title>
+		<meta charset="UTF-8">
+		<link rel="icon" href="images/favicon.ico">
+		
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+		
+		<script src="js/libs/highlight/highlight.pack.js"></script>
+
+		<script src="js/libs/jquery-1.11.2.min.js" charset="utf-8"></script>
+		<script src="js/libs/d3.min.js" charset="utf-8"></script>
+		<script src="js/libs/underscore-min.js" charset="utf-8"></script>
+		<script src="js/libs/bootstrap.min.js"></script>
+		
+		<link rel="stylesheet" href="js/libs/highlight/styles/default.css" />
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/viz.css" />
+
+		<script>
+			//This initializes the type of highlight and the folder where the code is at
+			var codeFolder = "MatlabExamples";
+			var fileExtension = ".m";
+			var codeHighlight = "hljs matlab";
+		</script>
+		<script src="js/ParseFilesTxt.js"></script>
+		<script src="js/HtmlHelper.js"></script>
+		<script src="js/StringUtils.js"></script>
+	</head>
+	<body>
+		<div class="row">
+			<div class="col-xs-4" id="left_list"> </div>
+			<!--Here it  start the second part-->
+			<div class="col-xs-8" id="code_area"> </div>
+		</div>
+		<script src="js/Main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,84 @@
+/* 
+    Created on : Feb 28, 2015, 9:33:11 PM
+    Author     : olmozavala
+*/
+/* 
+    Created on : Jan 15, 2015, 4:51:56 PM
+    Author     : olmozavala
+*/
+/*$background_color: #495565;*/
+html, body {
+  margin: 0px;
+  border: 0px;
+  background-color: white; }
+
+.defText, #errorText {
+  position: absolute;
+  color: white; }
+
+h2 {
+  text-align: center; }
+
+#errorText {
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  background-color: #d9534f;
+  padding: 5px 10px;
+  display: none;
+  top: 90%;
+  left: 10%; }
+
+#maingraph {
+  background-color: white; }
+
+.mytree {
+  background-color: white; }
+
+.node circle {
+  cursor: pointer;
+  fill: white;
+  stroke: steelblue;
+  stroke-width: 1.5px; }
+
+.node text {
+  font-size: 14px;
+  fill: white; }
+
+path.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+  opacity: .2; }
+
+.tooltip {
+  background-color: white;
+  position: absolute;
+  padding: 10px;
+  border: solid;
+  border-width: 1px;
+  color: #e6e6e6;
+  top: 0px;
+  display: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; }
+
+figure {
+  display: inline-block;
+  border: 1px ridge #C7C7C7;
+  margin: 20px;
+  /* adjust as needed */ }
+
+figure img {
+  vertical-align: top; }
+
+figure figcaption {
+  border: 1px solid #ABCBFF;
+  text-align: center; }
+
+/*# sourceMappingURL=viz.css.map */
